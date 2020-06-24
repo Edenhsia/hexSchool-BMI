@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+nav {
+  padding: 40px 0 24px;
+}
+
+.logo {
+  width: 127px;
+}
+
+.logo img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 54px;
+  color: #3D82AD;
+  margin-bottom: 64px;
+}
+
+.input {
+  background-color: #3D82AD;
+  padding: 20px 0 28px;
+}
+
+.input-item {
+  width: 384px;
+  text-align: left;
+  margin: 0 auto 16px;
+}
+
+.input-item p {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+
+input {
+  width: 384px;
+  height: 38px;
+  border-radius: 4px;
+  border: 1px solid #77B3D7;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 5px;
+  caret-color: #333;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 82px;
+  height: 38px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  background-color: transparent;
+  border: 1px solid #B1D7FB;
+  border-radius: 4px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #77B3D7;
+}
+
+.send {
+  margin-top: 24px;
+}
+
+.clear {
+  margin-top: 8px;
+}
+
+.record-list {
+  padding: 28px 0 56px;
+}
+
+.record-list .record-title h2 {
+  font-size: 28px;
+  line-height: 42px;
+  color: #3D82AD;
+  margin-bottom: 24px;
+}
+
+.record-list .record {
+  width: 588px;
+  margin: 0 auto 4px;
+  padding: 20px;
+  border: 1px solid #3D82AD;
+  border-radius: 4px;
+}
+
+.record-list .record h3 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 8px;
+  color: #3D82AD;
+}
+
+.record-list .record p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3D82AD;
+}
